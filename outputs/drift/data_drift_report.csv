@@ -1,0 +1,5 @@
+feature,test,statistic,p_value,drift_detected
+Year,KS,0.615,1.2128048740173004e-35,True
+Runtime (Minutes),KS,0.32999999999999996,4.869254633582969e-10,True
+Votes,KS,0.13,0.06801920461119272,False
+Genre,total_variation_distance,0.23500000000000001,,True

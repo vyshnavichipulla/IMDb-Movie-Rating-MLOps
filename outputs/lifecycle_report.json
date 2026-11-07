@@ -1,0 +1,32 @@
+{
+  "project": "IMDb Movie Rating Prediction",
+  "lab": "13 - End-to-End MLOps Lifecycle",
+  "steps": [
+    {
+      "script": "12_preprocess_train.py",
+      "status": "success",
+      "return_code": 0
+    },
+    {
+      "script": "12_create_evolved_dataset.py",
+      "status": "success",
+      "return_code": 0
+    },
+    {
+      "script": "12_data_drift.py",
+      "status": "success",
+      "return_code": 0
+    },
+    {
+      "script": "12_performance_monitoring.py",
+      "status": "success",
+      "return_code": 0
+    },
+    {
+      "script": "12_retrain_model.py",
+      "status": "success",
+      "return_code": 0
+    }
+  ],
+  "overall_status": "success"
+}

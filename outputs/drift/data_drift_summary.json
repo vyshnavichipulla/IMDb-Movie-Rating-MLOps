@@ -1,0 +1,38 @@
+{
+  "drift_detected": true,
+  "features_with_drift": [
+    "Year",
+    "Runtime (Minutes)",
+    "Genre"
+  ],
+  "results": [
+    {
+      "feature": "Year",
+      "test": "KS",
+      "statistic": 0.615,
+      "p_value": 1.2128048740173004e-35,
+      "drift_detected": true
+    },
+    {
+      "feature": "Runtime (Minutes)",
+      "test": "KS",
+      "statistic": 0.32999999999999996,
+      "p_value": 4.869254633582969e-10,
+      "drift_detected": true
+    },
+    {
+      "feature": "Votes",
+      "test": "KS",
+      "statistic": 0.13,
+      "p_value": 0.06801920461119272,
+      "drift_detected": false
+    },
+    {
+      "feature": "Genre",
+      "test": "total_variation_distance",
+      "statistic": 0.23500000000000001,
+      "p_value": null,
+      "drift_detected": true
+    }
+  ]
+}
